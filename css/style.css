@@ -65,16 +65,15 @@ p {
   width: 200px;
   background-color: #ff6464;
   border: none;
-  margin-bottom: 20px ;
+  margin-bottom: 20px;
   border-radius: 4px;
 }
-.banner_right{
+.banner_right {
   width: 418px;
   align-items: center;
 }
-.banner_img  {
+.banner_img {
   position: relative;
-
 }
 .banner_img .circle {
   position: absolute;
@@ -130,51 +129,71 @@ p {
 }
 
 /* featured part css start here */
-.featured_section_card_body {
-  margin: 30px 80px;
+#work_part {
+  padding: 35px 0 83px;
 }
-.card {
-  margin-right: 20px;
-}
-.card_img img {
+.images img {
   width: 100%;
-  height: 100%;
+  padding-bottom: 10px;
 }
-.dashboard {
-  color: rgb(168, 166, 166);
+.images {
+  margin-top: 35px;
 }
-.card_year {
-  background-color: rgba(13, 12, 12, 0.976);
-  height: 22px;
-  width: 50px;
-  color: rgb(255, 255, 255);
-  border-radius: 50px;
-  text-align: center;
-  margin-right: 20px;
+.work_text button {
+  color: #ffffff;
+  font-family: "Heebo", sans-serif;
+  font-weight: 900;
   font-size: 18px;
+  font-style: normal;
+  background-color: #142850;
+  padding: 3px 7px;
+  border-radius: 16px;
+  margin-right: 10px;
 }
-.card-subtitle {
+
+.work_text {
   color: #21243d;
   font-family: "Heebo", sans-serif;
+  font-size: 30px;
+  font-style: normal;
   font-weight: 700;
-  font-size: 26px;
+  line-height: normal;
+  padding-bottom: 20px;
+  margin-top: 96px;
 }
-.card-body p {
+.work_text p {
   color: #21243d;
   font-family: "Heebo", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 20px;
+  font-style: normal;
+  width: 595px;
+  margin-top: 27px;
+  line-height: normal;
 }
-.date {
-  margin: 20px 0;
+.work_text span {
+  color: #8695a4;
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
 }
-.featured_part_title h3 {
+
+.top_text h5 {
   color: #21243d;
   font-family: "Heebo", sans-serif;
   font-weight: 400;
   font-size: 22px;
+  font-style: normal;
+  margin-top: 40px;
 }
+.line {
+  padding: 1px 0;
+  background-color: #e0e0e0;
+  margin-top: 25px;
+}
+
 /* footer css done here */
 .footer_text {
   color: #21243d;
@@ -189,7 +208,7 @@ p {
 }
 .footer {
   text-align: center;
-  padding-top: 126px;
+  padding-top: 100px;
   padding-bottom: 20px;
 }
 .footer_icon {
