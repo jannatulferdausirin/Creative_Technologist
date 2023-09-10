@@ -27,7 +27,7 @@ p {
   margin: 0 auto;
 }
 /* all common css end here */
-
+/* navbar css done here */
 .navbar-nav {
   margin-right: 50px;
 }
@@ -38,6 +38,7 @@ p {
   font-size: 20px;
   color: #000000;
 }
+/* banner css done here */
 .banner_text h1 {
   font-family: "Heebo", sans-serif;
   font-weight: 700;
@@ -81,26 +82,59 @@ p {
   left: 10%;
 }
 /* recent post css done here  */
-.recent_sections_card {
-  margin-bottom: 30px;
+#blog_part {
+  padding-bottom: 45px ;
+  background-color: #edf7fa;
 }
-.recent_post_flex {
-  display: flex;
-  justify-content: space-between;
-}
-.recent_post_flex h3 {
+.recent h3 {
   color: #21243d;
   font-family: "Heebo", sans-serif;
   font-weight: 400;
   font-size: 22px;
-  margin-top: 10px;
+  line-height: 60px;
+  
 }
-.recent_post_flex p {
+.left_card {
+  padding: 24px 23px;
+  background-color: #ffffff;
+}
+.left_card h3 {
+  color: #21243d;
+  font-family: "Heebo", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  padding-bottom: 17px;
+  
+}
+.left_card h4 {
+  color: #21243d;
+  font-family: "Heebo", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  padding-bottom: 20px;
+
+}
+.left_card p {
+  color: #21243d;
+  font-family: "Heebo", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: normal;
+  
+}
+.recent_view h3 {
   color: #00a8cc;
   font-family: "Heebo", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  margin: 30px 210px;
+  text-align: right;
+  line-height: 60px;
+  margin-top: 8px;
+}
+
+/* featured part css start here */
+.featured_section_card_body {
+  margin: 30px 80px;
 }
 .card {
   margin-right: 20px;
@@ -112,7 +146,7 @@ p {
 .dashboard {
   color: rgb(168, 166, 166);
 }
-.card_year{
+.card_year {
   background-color: rgba(13, 12, 12, 0.976);
   height: 22px;
   width: 50px;
@@ -143,32 +177,35 @@ p {
   font-family: "Heebo", sans-serif;
   font-weight: 400;
   font-size: 22px;
-  margin-top: 20px;
 }
+/* footer css done here */
 .footer_text {
   color: #21243d;
   font-family: "Heebo", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
+  padding-bottom: 54px;
+  padding-top: 20px;
+  text-align: center;
+  justify-content: center;
 }
 .footer {
   text-align: center;
-  padding-top: 120px;
+  padding-top: 126px;
   padding-bottom: 20px;
 }
 .footer_icon {
   display: flex;
   text-align: center;
   justify-content: center;
-  margin-bottom: 10px;
 }
 .footer_icon i {
   margin-right: 30px;
   text-align: center;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 400;
 }
-.featured_section_card_body {
-  margin: 30px 80px;
+.linkdin i {
+  margin-right: 0;
 }
