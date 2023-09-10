@@ -22,10 +22,6 @@ p {
   line-height: 0.8;
 }
 
-.container_main_card {
-  width: 1032px;
-  margin: 0 auto;
-}
 /* all common css end here */
 /* navbar css done here */
 .navbar-nav {
@@ -39,51 +35,56 @@ p {
   color: #000000;
 }
 /* banner css done here */
+#banner_part {
+  padding: 124px 0 70px;
+}
 .banner_text h1 {
   font-family: "Heebo", sans-serif;
   font-weight: 700;
   font-size: 44px;
   color: #21243d;
-  margin-top: 110px;
-  padding-bottom: 25px;
+  margin-top: 30px;
+  width: 506px;
+  line-height: 60px;
 }
 .banner_text p {
   font-family: "Heebo", sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #21243d;
-  text-align: start;
-  justify-content: start;
-  line-height: 25px;
+  margin: 45px 0 35px;
+  line-height: normal;
+  width: 497px;
 }
 .banner_text button {
   color: #ffffff;
   font-family: "Heebo", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 20px;
   height: 50px;
   width: 200px;
   background-color: #ff6464;
   border: none;
-  margin: 20px 0;
+  margin-bottom: 20px ;
+  border-radius: 4px;
 }
-.banner_part {
-  display: flex;
-  height: 510px;
+.banner_right{
+  width: 418px;
+  align-items: center;
 }
-.banner_right_side {
-  width: 432px;
+.banner_img  {
   position: relative;
-  display: inline-block;
+
 }
-.banner_right_side img {
+.banner_img .circle {
   position: absolute;
-  top: 80px;
-  left: 10%;
+  top: 12px;
+  left: -8px;
+  z-index: -2;
 }
-/* recent post css done here  */
+/* blog part */
 #blog_part {
-  padding-bottom: 45px ;
+  padding-bottom: 45px;
   background-color: #edf7fa;
 }
 .recent h3 {
@@ -92,7 +93,6 @@ p {
   font-weight: 400;
   font-size: 22px;
   line-height: 60px;
-  
 }
 .left_card {
   padding: 24px 23px;
@@ -104,7 +104,6 @@ p {
   font-weight: 700;
   font-size: 26px;
   padding-bottom: 17px;
-  
 }
 .left_card h4 {
   color: #21243d;
@@ -112,7 +111,6 @@ p {
   font-weight: 700;
   font-size: 18px;
   padding-bottom: 20px;
-
 }
 .left_card p {
   color: #21243d;
@@ -120,7 +118,6 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: normal;
-  
 }
 .recent_view h3 {
   color: #00a8cc;
